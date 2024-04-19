@@ -34,3 +34,14 @@ This ASP.NET MVC web application utilizes Cloudflare's APIs to manage IP address
 ## Contributors
 
 - [Vivek Kumar](https://github.com/DotNetVivekKumar)
+
+## Screenshots
+
+![Screenshot 1](https://github.com/DotNetVivekKumar/ClouflareApi/blob/main/CloudflareAPI/1.png)
+<hr>
+
+![Screenshot 2](https://github.com/DotNetVivekKumar/ClouflareApi/blob/main/CloudflareAPI/2.png)
+<hr>
+
+![Screenshot 3](https://github.com/DotNetVivekKumar/ClouflareApi/blob/main/CloudflareAPI/3.png)
+
