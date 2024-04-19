@@ -1,0 +1,40 @@
+﻿@*@model CloudflareAPI.Models.IPAddressModel
+
+@{
+    ViewBag.Title = "BlockIPs";
+}
+<style>
+    .panel .container.body-content {
+        text-align: center;
+    }
+
+    .panel input#IPAddress {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .panel textarea.search {
+        height: auto;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-width: 600px;
+    }
+    .panel-body {
+        text-align: center;
+    }
+</style>
+<h2>Block IP Addresses on Cloudflare</h2>
+<p>Please specify comma seperated IP addresses to block</p>
+<div class="panel panel-default">
+    <div class="panel-body">
+        @using (Html.BeginForm("IndexDetails", "Home", FormMethod.Post))
+        {
+        <div class="form-group">
+            <label class = "control-label">IP Addresses</label>
+            @Html.TextAreaFor(model => model.IPAddress, new { @class = "form-control search", rows = 5 })
+        </div>
+            <button type="submit" class="btn btn-primary">Block IP</button>
+        }
+    </div>
+</div>*@
